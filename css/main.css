@@ -1,10 +1,11 @@
-nav {
-    
-    /*padding-top: 40px;*/
-    
-}
-
-a.nav-link {  font-size: 1.111em ; font-family: Oswald ; /*padding: 0 0 15px 25px*/;  color: #ffffff }
+/********************
+ ** Navbar Styling **
+ ********************/
+a.nav-link {  
+    font-size: 1.111em ; 
+    font-family: Oswald ; 
+    /*padding: 0 0 15px 25px*/;
+    color: #ffffff; }
 
 a.nav-brand { 
     padding-top: 0;
@@ -15,16 +16,13 @@ a.nav-brand {
     padding: 0px 30px 0px 30px;
 }
 
-#test {
-    font-family: 'Oswald';
-}
-
 header {
     padding: 26px 0; /* 40 - 8 */
     border-bottom: 1px solid #dedede;
 }
 
-body {    
-    background-image: url("../img/intro-carousel/banner_1.jpg");
+/** Not part of navbar just for testing **/
+#index-body {    
+    background: url("../img/intro-carousel/banner_1.jpg");
     background-size: cover;
 }

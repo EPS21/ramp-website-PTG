@@ -1,0 +1,40 @@
+/* Button Styling */
+body{
+    background-color: black;
+}
+
+.myButton 
+{
+    width: 350px;
+    height: 70px;
+    font-size: 1.333em;
+    font-family: Oswald;
+    text-transform: uppercase; 
+    padding: 0; 
+    color: #666666;
+    background-color: transparent; 
+    text-align: center;
+    border: 1px solid #ffffff; 
+    border-radius: 35px; 
+}
+    /* Hero Banner Button */
+    .buttonStudies:hover 
+    {
+        background-color: #ffffff; 
+        border: 1px solid #424182;
+        color: #424182
+    }
+
+    /* Body Button  */
+    .buttonConsult
+    {
+        border: 1px solid #424182; 
+        color: #424182; 
+        padding: 0; 
+    }
+    .buttonConsult:hover
+    {
+        background-color: #424182; 
+        border: 1px solid #424182;
+        color: #FFFFFF
+    }

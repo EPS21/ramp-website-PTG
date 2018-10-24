@@ -1,29 +1,81 @@
-/* Button Styling */
-body{
-    background-color: black;
+/* For Left and Right Margin */
+.mainMargin
+{
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
+
+/* Hero Banner  */
+.heroHeader
+{
+    border: 1px solid red;
+    /* Layers Gradient on top of background img */
+    background: linear-gradient(rgba(0, 0,60, 0.45), rgba(0, 0, 60, 0.55)),
+    url("../img/intro-carousel/banner_1.jpg");
+    height: 100vh !important;
+
+    background-size: 120% 100%;
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+
+    .heroBanner
+    {
+        margin: auto;
+        width: 50vw;
+        height: 50vh;
+        margin-top: 25vh;
+        border: 1px solid blue;
+    }
+        .heroHeading
+        {
+            font-size: 1.9em;
+            margin-bottom: 40px;
+        }
+        .heroText
+        {
+            font-size: 1.3em;
+            margin-bottom: 50px;
+        }
+    .carouselBeads
+    {
+        border: 1px solid purple;
+        width: 50%;
+        margin: auto;
+    }
+
+/* Button  */
 .myButton 
 {
+    position: relative;
     width: 350px;
     height: 70px;
     font-size: 1.333em;
     font-family: Oswald;
     text-transform: uppercase; 
-    padding: 0; 
     color: #666666;
     background-color: transparent; 
     text-align: center;
     border: 1px solid #ffffff; 
     border-radius: 35px; 
+    display: block;
+    margin: auto;
 }
     /* Hero Banner Button */
-    .buttonStudies:hover 
+    .buttonStudies 
     {
-        background-color: #ffffff; 
-        border: 1px solid #424182;
-        color: #424182
+        border: 1px solid #ffffff;
+        color: white;
+        margin-bottom: 50px;
     }
+        .buttonStudies:hover 
+        {
+            background-color: #ffffff; 
+            border: 1px solid #424182;
+            color: #424182
+        }
 
     /* Body Button  */
     .buttonConsult

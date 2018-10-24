@@ -9,5 +9,20 @@
     /* background-image: url('img/footer-logo.jpg') */
     width: 100%;
     background-color: #fafafa;
-    padding: 25px 10px;
+    padding: 60px 50px;
+}
+
+.footer button{
+    width: 350px;
+    height: 75px;
+    font: 1.333em Oswald;
+    border:  1px solid #424182;
+    color: #424182;
+    border-radius: 35px;
+}
+
+.siteMaps{
+    display: inline-block;
+    width: 25%;
+    margin: 0 50px;
 }

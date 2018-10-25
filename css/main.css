@@ -1,10 +1,17 @@
 
+/* Thematic Changes  */
 .row 
 {
     max-width: 100%;
     margin: 0;
 }
-
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
 .mainMargin
 {
     margin-left: 50px;
@@ -79,25 +86,17 @@
 {
     
 }
-    .introInfo img
-    {
-        display: block;
-        margin: auto;
-    }
     .introInfo h2
     {
-        padding: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
         font-size: 1.2em;
     }
     .introInfo article
     {
         padding: 0;
     }
-    .introInfo p
-    {
-        padding: 5px;
-        font-size: 1.1em;
-    }
+
 
 
 @media screen and (max-width: 850px)
@@ -130,7 +129,7 @@
 /* Tiny Learn More Section */
 .learnMore
 {
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-top: 60px;
     margin-bottom: 60px;
 }
@@ -156,11 +155,29 @@
 
 .caseStudy
 {
-    border: 1px solid red;
+    margin-bottom:50px;
+    padding: 20px;
 }
+        
     .caseStudy img
     {
+        margin-bottom: 25px;
+        max-width: 100%;
+        height: 250px;
 
+        transition: opacity 0.3s;
+    }
+
+    .caseStudy img:hover
+    {
+        opacity: 0.7;
+        background: rgba(0,0,0, 0.6);
+    }
+
+        
+    .caseStudy h2
+    {
+        font-size: 1.2em;
     }
 
 

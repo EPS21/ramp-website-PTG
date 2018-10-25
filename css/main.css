@@ -5,7 +5,6 @@
 
 /********* Button Styling *********/
 body{
-    background-color: black;
 }
 
 .myButton 
@@ -40,68 +39,12 @@ body{
 {
     background-color: #424182; 
     border: 1px solid #424182;
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
 /******** This is a footer ********/
 
-#footer{
-    width: 100%;
-    background-color: #fafafa;
-}
-
-#footerHeading{
-    padding: 60px 50px;
-    /* background-image: url("img/footer-logo.jpg");
-    background-size: contain; */
-    /* height: 100px; */
-    /* width: 200px; */
-    /* display: inline-block; */
-    margin-bottom: 60px 
-}
-
-.floatRight{
-    float: right;
-}
-#footer img{
-    display: inline-block;
-    vertical-align: top;
-    padding-top: 25px;
-    height: 63px;
-    /* width: 225px */
-}
-
-.footerContent{
-    display: inline-block;
-    margin-bottom: 80px;
-}
-
-.footerText{
-    float: left;
-    vertical-align: top;
-    width: 18%;
-    margin: 0 50px;
-}
-
-.footerText h4{
-    text-transform: uppercase;
-}
-
-.footer_colors{
-    height: 35px;
-    width: 25%;
-    float: left;
-}
-
-#color1{
-    background-color: #A62033;
-}
-#color2{
-    background-color: #EC5A3F;
-}
-#color3{
-    background-color: #72BF44;
-}
-#color4{
-    background-color: #F7941F;
+.space{
+    background-color: #E6E7E8;
+    height: 50px
 }

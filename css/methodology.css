@@ -1,0 +1,55 @@
+/******** Methodology styling ********/
+
+#title{
+    background-color: #E6E7E8;
+    padding: 50px;
+    text-transform: uppercase;
+    color: #414082;
+}
+
+.methodology{
+    background-color: #fafafa;
+    /* padding-top: 40px; */
+    padding: 40px 50px 0;
+}
+
+.tabs{
+    padding-bottom: 45px;
+}
+
+.tabHeadings{
+    padding: 25px;
+    color: #fff;
+}
+
+.tabHeadings img{
+    max-height: 125px;
+    height: 100%;
+    display: inline-block;
+}
+
+.tabHeadings h3{
+    text-transform: uppercase
+}
+
+.img-implementing span{
+    background-image: url("../img/sample-img.jpg");
+    background-size: cover;
+    height: 500px
+}
+
+#strategy{
+    background-color: #EC5A3F;    
+}
+
+#design{
+    background-color: #F68C36;
+}
+
+#implementation{
+    background-color: #D42F2E;
+}
+
+#ops{
+    background-color: #9F3A4A;
+}

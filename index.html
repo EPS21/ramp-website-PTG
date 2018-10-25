@@ -1,5 +1,5 @@
 <!-- 
-	Neeko Blomgren
+	Neeko Blomgren, Eric Sheng, David Gonzalez
 	10/22/18
 	UI Developer Internship
 	People Tech Group - Ramp Group Website Mockup
@@ -32,9 +32,44 @@
 	<title> Ramp Group </title>
 </head>
 <body>
-		<!-- Place for Navbar -->
+	<!-- Navigation -->
+	<header>	
+	<nav id="navbar" class="navbar navbar-expand-lg navbar-default bg-transparent">
+		<!--<a class="navbar-brand" href="#">			
+		</a>-->			
+		<img src="./img/logo_ramp@2x.png" href="index.html" height="35" alt="">
+		
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>				  
+		</button>		
+		<!-- Links -->
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<!-- ml-auto to pull links to right side (was mr-auto) -->
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active"> <!-- TODO how to make this active? -->
+					<a class="nav-link" href="capabilities.html">CAPABILITIES <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="methodology.html">METHODOLOGY</a>
+				</li>					
+				<li class="nav-item">
+					<a class="nav-link" href="casestudies.html">CASE STUDIES</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="leadership.html">LEADERSHIP</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="careers.html">CAREERS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contactus.html">CONTACT US</a>
+				</li>	  
+			</ul>				
+		</div>
+	</nav>
+	</header>		
 
-	
+
 	<!-- Carousel Implemented w/ Bootstrap -->
 
 	<section id="carousel-container" class="heroHeader carousel slide" data-ride="carousel">
@@ -214,8 +249,41 @@
 		
 	<!-- Page Seperator -->
 	<span class="pageSep row"></span>
+	
+	<!-- Footer -->
+	<div id="footer">
+		<div id="footerHeading">
+			<img src="img/footer-logo.jpg" alt="Ramp">
+			<div class="floatRight">
+				<button class="myButton buttonConsult"> Book a Consult </button>
+			</div>
+		</div>
+		<div class="footerContent">
+			<div class="footerText">
+				<h4>site maps</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dicta repudiandae unde? Placeat temporibus labore enim ducimus ipsa fuga nostrum sapiente dignissimos tempore molestiae error, vel culpa ab minima. Vel.</p>
+			</div>
+			<div class="footerText">
+				<h4>site maps</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dicta repudiandae unde? Placeat temporibus labore enim ducimus ipsa fuga nostrum sapiente dignissimos tempore molestiae error, vel culpa ab minima. Vel.</p>
+			</div>
+			<div class="footerText">
+				<h4>site maps</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dicta repudiandae unde? Placeat temporibus labore enim ducimus ipsa fuga nostrum sapiente dignissimos tempore molestiae error, vel culpa ab minima. Vel.</p>
+			</div>
+			<div class="footerText">
+				<h4>site maps</h4>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dicta repudiandae unde? Placeat temporibus labore enim ducimus ipsa fuga nostrum sapiente dignissimos tempore molestiae error, vel culpa ab minima. Vel.</p>
+			</div>
+		</div>
+		<div class="bottomFooter">
+			<div id="color1" class="footer_colors"></div>
+			<div id="color2" class="footer_colors"></div>
+			<div id="color3" class="footer_colors"></div>
+			<div id="color4" class="footer_colors"></div>
+		</div>
+	</div>
 
-	<!--  Scripts  -->
 	<script src="js/myJs.js"></script>
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

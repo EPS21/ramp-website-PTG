@@ -1,3 +1,40 @@
+nav {
+    
+    /*padding-top: 40px;*/
+    
+}
+
+a.nav-link {  font-size: 1.111em ; font-family: Oswald ; /*padding: 0 0 15px 25px*/;  color: #ffffff }
+
+a.nav-brand { 
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#navbar {
+    padding: 0px 30px 0px 30px;
+}
+
+#test {
+    font-family: 'Oswald';
+}
+
+header {
+    padding: 26px 0; /* 40 - 8 */
+    border-bottom: 1px solid #dedede;
+    background-color: black;
+}
+
+body {    
+   
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 
 /* Thematic Changes  */
 .row 
@@ -182,50 +219,105 @@ img
 
 
 
+/********* Button Styling *********/
+body{
+    
+}
 
-/* Button  */
 .myButton 
 {
-    position: relative;
     width: 350px;
     height: 70px;
     font-size: 1.333em;
     font-family: Oswald;
-    text-transform: uppercase; 
+    text-transform: uppercase;
+    padding: 0; 
     color: #666666;
     background-color: transparent; 
     text-align: center;
     border: 1px solid #ffffff; 
     border-radius: 35px; 
-    display: block;
-    margin: auto;
 }
-    /* Hero Banner Button */
-    .buttonStudies 
-    {
-        border: 1px solid #ffffff;
-        color: white;
-        margin-bottom: 50px;
-    }
-        .buttonStudies:hover 
-        {
-            background-color: #ffffff; 
-            border: 1px solid #424182;
-            color: #424182
-        }
+/********* Hero Banner Button *********/
+.buttonStudies:hover 
+{
+    background-color: #ffffff; 
+    border: 1px solid #424182;
+    color: #424182
+}
+/********* Body Button  *********/
+.buttonConsult
+{
+    border: 1px solid #424182; 
+    color: #424182; 
+    padding: 0; 
+}
+.buttonConsult:hover
+{
+    background-color: #424182; 
+    border: 1px solid #424182;
+    color: #FFFFFF
+}
 
-    /* Body Button  */
-    .buttonConsult
-    {
-        border: 1px solid #424182; 
-        color: #424182; 
-        padding: 0; 
-    }
-    .buttonConsult:hover
-    {
-        background-color: #424182; 
-        border: 1px solid #424182;
-        color: #FFFFFF
-    }
+/******** This is a footer ********/
 
+#footer{
+    width: 100%;
+    background-color: #fafafa;
+}
 
+#footerHeading{
+    padding: 60px 50px;
+    /* background-image: url("img/footer-logo.jpg");
+    background-size: contain; */
+    /* height: 100px; */
+    /* width: 200px; */
+    /* display: inline-block; */
+    margin-bottom: 60px 
+}
+
+.floatRight{
+    float: right;
+}
+#footer img{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 25px;
+    height: 63px;
+    /* width: 225px */
+}
+
+.footerContent{
+    display: inline-block;
+    margin-bottom: 80px;
+}
+
+.footerText{
+    float: left;
+    vertical-align: top;
+    width: 18%;
+    margin: 0 50px;
+}
+
+.footerText h4{
+    text-transform: uppercase;
+}
+
+.footer_colors{
+    height: 35px;
+    width: 25%;
+    float: left;
+}
+
+#color1{
+    background-color: #A62033;
+}
+#color2{
+    background-color: #EC5A3F;
+}
+#color3{
+    background-color: #72BF44;
+}
+#color4{
+    background-color: #F7941F;
+}

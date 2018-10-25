@@ -1,4 +1,10 @@
-/* For Left and Right Margin */
+
+.row 
+{
+    max-width: 100%;
+    margin: 0;
+}
+
 .mainMargin
 {
     margin-left: 50px;
@@ -7,44 +13,158 @@
 
 
 /* Hero Banner  */
-.heroHeader
+.heroHeader img
 {
-    border: 1px solid red;
-    /* Layers Gradient on top of background img */
-    background: linear-gradient(rgba(0, 0,60, 0.45), rgba(0, 0, 60, 0.55)),
-    url("../img/intro-carousel/banner_1.jpg");
-    height: 100vh !important;
-
-    background-size: 120% 100%;
-    background-repeat: no-repeat;
-    color: white;
-    
+    height: 100vh;
+    background-size: contain;
 }
-
     .heroBanner
     {
+        text-align: left;
         margin: auto;
-        width: 50vw;
-        height: 50vh;
-        margin-top: 25vh;
-        border: 1px solid blue;
+        bottom: 35vh;
     }
         .heroHeading
         {
-            font-size: 1.9em;
+            font-size: 2.3em;
             margin-bottom: 40px;
         }
         .heroText
         {
-            font-size: 1.3em;
+            font-size: 1.7em;
             margin-bottom: 50px;
         }
-    .carouselBeads
+
+
+/* Carousel */
+.carousel-item:before
+{
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0,0,0, 0.6);
+}
+
+.carousel-indicators li.active,
+.carousel-indicators li 
+{ 
+    border: 0; 
+    bottom: 10vh;
+}
+
+.carousel-indicators li 
+{
+  background: #666;
+  border-radius: 15px;
+  margin: 0 3px;
+  width: 12px;
+  height: 12px;
+}
+
+
+
+.carousel-indicators li.active 
+{
+  background: #fff;
+  margin: 0 3px;
+}
+
+
+/* Intro Info Section */
+.introInfo div
+{
+    
+}
+    .introInfo img
     {
-        border: 1px solid purple;
-        width: 50%;
+        display: block;
         margin: auto;
     }
+    .introInfo h2
+    {
+        padding: 5px;
+        font-size: 1.2em;
+    }
+    .introInfo article
+    {
+        padding: 0;
+    }
+    .introInfo p
+    {
+        padding: 5px;
+        font-size: 1.1em;
+    }
+
+
+@media screen and (max-width: 850px)
+{
+    .infoImg1
+    {
+        float: left;
+        display: inline;
+    }
+
+    .infoText1
+    {
+        display: inline;
+        float: left;
+    }
+
+    .infoImg2
+    {
+        float: right;
+        display: inline;
+    }
+
+    .infoText2
+    {
+        display: inline;
+        float: right;
+    }
+}
+
+/* Tiny Learn More Section */
+.learnMore
+{
+    font-size: 1.4em;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* Page Seperator */
+.pageSep
+{
+    background-color: lightgray;
+    height: 50px;
+}
+
+
+/* Case Studies Section */
+.caseStudies
+{
+
+}
+    .caseStudies h1
+    {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+.caseStudy
+{
+    border: 1px solid red;
+}
+    .caseStudy img
+    {
+
+    }
+
+
+
 
 /* Button  */
 .myButton 
@@ -90,3 +210,5 @@
         border: 1px solid #424182;
         color: #FFFFFF
     }
+
+

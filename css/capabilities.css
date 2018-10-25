@@ -4,26 +4,23 @@
     margin-bottom: 30px;
 }
 
-.capImg1
-{
-    float: left;
-    display: inline;
-}
-
-.capInfo1
-{
-    float: left;
-    display: inline;
-}
-
-.capImg2
-{
-    float: right;
-    display: inline;
-}
-
-.capInfo2
-{
-    float: right;
-    display: inline;
-}
+    .capImg1
+    {
+        float: left;
+        display: inline;
+    }
+    .capInfo1
+    {
+        float: left;
+        display: inline;
+    }
+    .capImg2
+    {
+        float: right;
+        display: inline;
+    }
+    .capInfo2
+    {
+        float: right;
+        display: inline;
+    }

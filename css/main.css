@@ -22,11 +22,11 @@ a.nav-brand {
 header {
     padding: 26px 0; /* 40 - 8 */
     border-bottom: 1px solid #dedede;
+    background-color: black;
 }
 
 body {    
-    background-image: url("../img/intro-carousel/banner_1.jpg");
-    background-size: cover;
+   
 }
 
 
@@ -36,9 +36,192 @@ body {
 }
 
 
+/* Thematic Changes  */
+.row 
+{
+    max-width: 100%;
+    margin: 0;
+}
+img
+{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: auto;
+}
+.mainMargin
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+/* Hero Banner  */
+.heroHeader img
+{
+    height: 100vh;
+    background-size: contain;
+}
+    .heroBanner
+    {
+        text-align: left;
+        margin: auto;
+        bottom: 35vh;
+    }
+        .heroHeading
+        {
+            font-size: 2.3em;
+            margin-bottom: 40px;
+        }
+        .heroText
+        {
+            font-size: 1.7em;
+            margin-bottom: 50px;
+        }
+
+
+/* Carousel */
+.carousel-item:before
+{
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: rgba(0,0,0, 0.6);
+}
+
+.carousel-indicators li.active,
+.carousel-indicators li 
+{ 
+    border: 0; 
+    bottom: 10vh;
+}
+
+.carousel-indicators li 
+{
+  background: #666;
+  border-radius: 15px;
+  margin: 0 3px;
+  width: 12px;
+  height: 12px;
+}
+
+
+
+.carousel-indicators li.active 
+{
+  background: #fff;
+  margin: 0 3px;
+}
+
+
+/* Intro Info Section */
+.introInfo div
+{
+    
+}
+    .introInfo h2
+    {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 1.2em;
+    }
+    .introInfo article
+    {
+        padding: 0;
+    }
+
+
+
+@media screen and (max-width: 850px)
+{
+    .infoImg1
+    {
+        float: left;
+        display: inline;
+    }
+
+    .infoText1
+    {
+        display: inline;
+        float: left;
+    }
+
+    .infoImg2
+    {
+        float: right;
+        display: inline;
+    }
+
+    .infoText2
+    {
+        display: inline;
+        float: right;
+    }
+}
+
+/* Tiny Learn More Section */
+.learnMore
+{
+    font-size: 1.2em;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* Page Seperator */
+.pageSep
+{
+    background-color: lightgray;
+    height: 50px;
+}
+
+
+/* Case Studies Section */
+.caseStudies
+{
+
+}
+    .caseStudies h1
+    {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+
+.caseStudy
+{
+    margin-bottom:50px;
+    padding: 20px;
+}
+        
+    .caseStudy img
+    {
+        margin-bottom: 25px;
+        max-width: 100%;
+        height: 250px;
+
+        transition: opacity 0.3s;
+    }
+
+    .caseStudy img:hover
+    {
+        opacity: 0.7;
+        background: rgba(0,0,0, 0.6);
+    }
+
+        
+    .caseStudy h2
+    {
+        font-size: 1.2em;
+    }
+
+
+
 /********* Button Styling *********/
 body{
-    background-color: black;
+    
 }
 
 .myButton 

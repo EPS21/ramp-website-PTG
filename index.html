@@ -5,288 +5,285 @@
 	People Tech Group - Ramp Group Website Mockup
 
 	Homepage:
-		Tools-
-			HTML5
-			CSS3
-			Javascript
-
  -->
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-	<link rel="stylesheet" href="css/main.css">
-	
-	<!-- Font -->
-	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-	<!-- Tab Icon -->
-	<link rel="icon" href="img\apple-touch-icon.png">
-
-	
-	<title> Ramp Group </title>
-</head>
-<body>
-	<!-- Navigation -->
-	<header>	
-	<nav id="navbar" class="navbar navbar-expand-lg navbar-default bg-transparent">
-		<!--<a class="navbar-brand" href="#">			
-		</a>-->			
-		<img src="./img/logo_ramp@2x.png" href="index.html" height="35" alt="">
-		
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>				  
-		</button>		
-		<!-- Links -->
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<!-- ml-auto to pull links to right side (was mr-auto) -->
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active"> <!-- TODO how to make this active? -->
-					<a class="nav-link" href="capabilities.html">CAPABILITIES <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="methodology.html">METHODOLOGY</a>
-				</li>					
-				<li class="nav-item">
-					<a class="nav-link" href="casestudies.html">CASE STUDIES</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="leadership.html">LEADERSHIP</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="careers.html">CAREERS</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="contactus.html">CONTACT US</a>
-				</li>	  
-			</ul>				
-		</div>
-	</nav>
-	</header>		
-
-
-	<!-- Carousel Implemented w/ Bootstrap -->
-
-	<section id="carousel-container" class="heroHeader carousel slide" data-ride="carousel">
-			<!-- Carousel Indicators -->
-			<ol class="carousel-indicators">
-					<li class="active" data-target="#carousel-container" data-slide-to="0" class="active"></li>
-					<li data-target="#carousel-container" data-slide-to="1"></li>
-					<li data-target="#carousel-container" data-slide-to="2"></li>
-					<li data-target="#carousel-container" data-slide-to="3"></li>
-			</ol>
-
-			<!-- Each Carousel Item which gets Cycled through using "active" class -->
-		<div class="carousel-inner ">
-			<div class="carousel-item active">
-				<img class="d-block w-100" src="img\intro-carousel\banner_1.jpg" >
-
-				<div class=" carousel-caption d-none d-md-block heroBanner">
-
-					<h2 class="heroHeading">Digitally Transform your business.</h2>
-		
-					<div class="heroText"> Improve your customers' experience, control your costs, and make better, data-driven decisions.</div>
-
-					<button class="myButton buttonStudies"> See the Case Studies </button>
-				</div>
-			</div>
-
-			<div class="carousel-item">
-				<img class="d-block w-100" src="img\intro-carousel\banner_2.jpg" >
-
-				<div class=" carousel-caption d-none d-md-block heroBanner">
-						<h2 class="heroHeading">Build world-class enterprise software.</h2>
-			
-						<div class="heroText"> Our team delivers award-winning platforms for top Fortune companies like GM, Amazon and Microsoft.</div>
-
-						<button class="myButton buttonStudies"> See the Case Studies </button>
-				</div>
-			</div>
-
-			<div class="carousel-item">
-				<img class="d-block w-100" src="img\intro-carousel\banner_1.jpg" >
-				<div class="carousel-caption d-none d-md-block heroBanner">
-						<h2 class="heroHeading">Make your company smarter.</h2>
-			
-						<div class="heroText">Advanced data analysis is critical to staying ahead of the competition. Don’t let key business insights stay buried!</div>
-
-						<button class="myButton buttonStudies"> See the Case Studies </button>
-				</div>
-			</div>
-
-			<div class="carousel-item">
-				<img class="d-block w-100" src="img\intro-carousel\banner_2.jpg" >
-				<div class="carousel-caption d-none d-md-block heroBanner">
-						<h2 class="heroHeading">Design-led software development drives revenue.</h2>
-			
-						<div class="heroText">Customer experience leaders grow 20–30 percent faster than their peers.</div>
-
-						<button class="myButton buttonStudies"> See the Case Studies </button>
-				</div>
-			</div>
-					
-		</div>
-	</section>
-
-
-
-		<!-- Introductory Information Image Section-->
-	<section class="introInfo row">	
-			<article class="col-lg-3 col-md-3">
-					<div class="col-lg-12 col-md-12 col-6 infoImg1" style="background-color:#EC5A3F;">
-							<img src="img/cap1_strategy@2x.png" alt="strategy">
-					</div>
-
-					<div class="col-lg-12 col-md-12 col-6 infoText1">
-						<h2 style="color:#EC5A3F;">STRATEGY</h2>
-							<p>First, we sit down with you to assess your current digital capabilities, and form a plan to educate your team and transform your business.</p>
-					</div>
-			</article>
-			
-			<article class="col-lg-3 col-md-3">
-				<div class="col-lg-12 col-md-12 col-6 infoImg2" style="background-color: #F68C36;">
-						<img src="img/cap2_design@2x.png" alt="strategy">
-				</div>
-
-				<div class="col-lg-12 col-md-12 col-6 infoText2">
-					<h2 style="color: #F68C36;">DESIGN</h2>
-						<p>We use the latest tools and techniques to unravel complexity, crafting products and solutions that deliver results and are delightful to use.</p>
-				</div>
-			</article>
-
-
-			<article class="col-lg-3 col-md-3">
-				<div class="col-lg-12 col-md-12 col-6 infoImg1" style="background-color: #D42F2E;">
-						<img src="img/cap3_implementation@2x.png" alt="strategy">
-				</div>
-
-				<div class="col-lg-12 col-md-12 col-6 infoText1">
-					<h2 style="color: #D42F2E;">IMPLEMENTATION</h2>
-						<p>We eat tricky cloud migrations, enterprise software, and app development for breakfast. There is no job too big or too complex for our team.</p>
-				</div>
-			</article>
-
-
-			<article class="col-lg-3 col-md-3">
-				<div class="col-lg-12 col-md-12 col-6 infoImg2" style="background-color: #9F3A4A;">
-						<img src="img/cap4_ops@2x.png" alt="strategy">
-				</div>
-
-				<div class="col-lg-12 col-md-12 col-6 infoText2">
-					<h2 style="color: #9F3A4A;">OPERATIONS</h2>
-						<p>Transform operations with advanced automation and data analysis, measurably aligning your systems and processes with your business goals.</p>
-				</div>
-			</article>
-	</section>
-
-		<!-- Learn More Link (HREF NEEDED) -->
-		<div class="learnMore mainMargin row">
-			<a href="">Learn more about how we do what we do >></a>
-		</div>
-		
-		<!-- Page Seperator -->
-		<span class="pageSep row"></span>
-
-		<!-- Case Studies Section -->
-	<section class="caseStudies">
-			<h1 class="mainMargin"> Case Studies </h1>
-
-			<div class="mainMargin row">
-				<article class="caseStudy col-md-6 col-lg-6 col-12">
-					<img src="img\microsoft-img.jpg" alt="">
-					
-					<div>
-						<h2>Microsoft</h2>
-						<p>Microsoft’s One Commercial Partner Organization had collected 5 years of partner utilization data via their Dynamics Learning platform (DLP). This data held key insights that could be leveraged to help partners create better learning plans for partner resources and help surface the best courses individuals should take to advance their ability to successfully implement Microsoft’s Dynamic family f products.</p>
-					</div>
-				</article>
-				
-				<article class="caseStudy col-md-6 col-lg-6 col-12">
-					<img src="img\gm-img.jpg" alt="">
-
-					
-					<div>
-							<h2>General Motors</h2>
-						<p>GM wanted to improve the way they designed and built Human Machine Interfaces (HMI) for In-Vehicle-Infotainment system.
-							<br />
-						The legacy process included the drafting of an over 1000 page specification that was sent to multiple suppliers for different world-wide markets. This process led to higher costs as well as usability and quality problems.</p>
-					</div>
-				</article>
-			</div>
-
-			<div class="mainMargin row">
-				<article class="caseStudy col-md-6 col-lg-6 col-12">
-					<img src="img\stanford-img.jpg" alt="">
-
-					<div>
-						<h2>STANFORD UNIVERSITY</h2>
-						<p>Stanford needed a design and development partner that could assist them in creating new solutions that service their students and employees. Existing systems were perceived as hard to use, with information difficult to find. The goal was to make these systems more accessible both on the web and via mobile and tablet devices to serve this highly mobile audience.</p>
-					</div>
-				</article>
-
-				<article class="caseStudy col-md-6 col-lg-6 col-12">
-					<img src="img\insitu-img.png" alt="">
-					
-					<div>
-						<h2>INSITU</h2>
-						<p>Insitu wanted to develop, test, implement and document a “Change Analysis Planning Process” (CAPP) database and application that will compile and manage “Proposed System Design Changes” for the purpose of collecting proposal attributes, performing functions (sorting, filtering, etc.), conducting what-if scenarios to establish priorities and establishing overall ranking to enable decision making (budget distribution, project planning, team priority).</p>
-					</div>
-				</article>
-			</div>
-
-		<div class="learnMore mainMargin row">
-				<a href="">See more case studies >></a>
-		</div>
-	</section>
-
-	<!-- Learn More Link (HREF NEEDED) -->
-	
-		
-	<!-- Page Seperator -->
-	<span class="pageSep row"></span>
-	
-	<!-- Footer -->
-	<div id="footer">
-		<div id="footerHeading">
-			<img src="img/footer-logo.jpg" alt="Ramp">
-			<div class="floatRight">
-				<button class="myButton buttonConsult"> Book a Consult </button>
-			</div>
-		</div>
-		<div class="footerContent">
-			<div class="footerText">
-				<h4>site maps</h4>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dicta repudiandae unde? Placeat temporibus labore enim ducimus ipsa fuga nostrum sapiente dignissimos tempore molestiae error, vel culpa ab minima. Vel.</p>
-			</div>
-			<div class="footerText">
-				<h4>site maps</h4>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dicta repudiandae unde? Placeat temporibus labore enim ducimus ipsa fuga nostrum sapiente dignissimos tempore molestiae error, vel culpa ab minima. Vel.</p>
-			</div>
-			<div class="footerText">
-				<h4>site maps</h4>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dicta repudiandae unde? Placeat temporibus labore enim ducimus ipsa fuga nostrum sapiente dignissimos tempore molestiae error, vel culpa ab minima. Vel.</p>
-			</div>
-			<div class="footerText">
-				<h4>site maps</h4>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dicta repudiandae unde? Placeat temporibus labore enim ducimus ipsa fuga nostrum sapiente dignissimos tempore molestiae error, vel culpa ab minima. Vel.</p>
-			</div>
-		</div>
-		<div class="bottomFooter">
-			<div id="color1" class="footer_colors"></div>
-			<div id="color2" class="footer_colors"></div>
-			<div id="color3" class="footer_colors"></div>
-			<div id="color4" class="footer_colors"></div>
-		</div>
-	</div>
-
-	<script src="js/myJs.js"></script>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
-</html>
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+	 <meta charset="UTF-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 
+	 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 
+	 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	 <link rel="stylesheet" href="css/main.css">
+	 <link rel="stylesheet" href="css/index.css">
+	 
+	 
+	 <!-- Font -->
+	 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	 <!-- Tab Icon -->
+	 <link rel="icon" href="img\apple-touch-icon.png">
+ 
+	 
+	 <title> Ramp Group </title>
+ </head>
+ <body>
+	 <!-- Navigation -->
+	 <header>	
+	 <nav id="navbar" class="navbar navbar-expand-lg navbar-default bg-transparent">
+		 <a class="navbar-brand" href="#">			
+		 </a>			
+		 <img src="./img/logo_ramp@2x.png" href="index.html" height="35" alt="">
+		 
+		 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			 <span class="navbar-toggler-icon"></span>				  
+		 </button>		
+		 <!-- Links -->
+		 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+			 <!-- ml-auto to pull links to right side (was mr-auto) -->
+			 <ul class="navbar-nav ml-auto">
+				 <li class="nav-item active"> <!-- TODO how to make this active? -->
+					 <a class="nav-link" href="capabilities.html">CAPABILITIES <span class="sr-only">(current)</span></a>
+				 </li>
+				 <li class="nav-item active">
+					 <a class="nav-link" href="methodology.html">METHODOLOGY</a>
+				 </li>					
+				 <li class="nav-item">
+					 <a class="nav-link" href="casestudies.html">CASE STUDIES</a>
+				 </li>
+				 <li class="nav-item">
+					 <a class="nav-link" href="leadership.html">LEADERSHIP</a>
+				 </li>
+				 <li class="nav-item">
+					 <a class="nav-link" href="careers.html">CAREERS</a>
+				 </li>
+				 <li class="nav-item">
+					 <a class="nav-link" href="contactus.html">CONTACT US</a>
+				 </li>	  
+			 </ul>				
+		 </div>
+	 </nav>
+	 </header>		
+ 
+ 
+	 <!-- Carousel Implemented w/ Bootstrap -->
+ 
+	 <section id="carousel-container" class="heroHeader carousel slide" data-ride="carousel">
+			 <!-- Carousel Indicators -->
+			 <ol class="carousel-indicators">
+					 <li class="active" data-target="#carousel-container" data-slide-to="0" class="active"></li>
+					 <li data-target="#carousel-container" data-slide-to="1"></li>
+					 <li data-target="#carousel-container" data-slide-to="2"></li>
+					 <li data-target="#carousel-container" data-slide-to="3"></li>
+			 </ol>
+ 
+			 <!-- Each Carousel Item which gets Cycled through using "active" class -->
+		 <div class="carousel-inner ">
+			 <div class="carousel-item active">
+				 <img class="d-block w-100" src="img\intro-carousel\banner_1.jpg" >
+ 
+				 <div class=" carousel-caption d-none d-md-block heroBanner">
+ 
+					 <h2 class="heroHeading">Digitally Transform your business.</h2>
+		 
+					 <div class="heroText"> Improve your customers' experience, control your costs, and make better, data-driven decisions.</div>
+ 
+					 <button class="myButton buttonStudies"> See the Case Studies </button>
+				 </div>
+			 </div>
+ 
+			 <div class="carousel-item">
+				 <img class="d-block w-100" src="img\intro-carousel\banner_2.jpg" >
+ 
+				 <div class=" carousel-caption d-none d-md-block heroBanner">
+						 <h2 class="heroHeading">Build world-class enterprise software.</h2>
+			 
+						 <div class="heroText"> Our team delivers award-winning platforms for top Fortune companies like GM, Amazon and Microsoft.</div>
+ 
+						 <button class="myButton buttonStudies"> See the Case Studies </button>
+				 </div>
+			 </div>
+ 
+			 <div class="carousel-item">
+				 <img class="d-block w-100" src="img\intro-carousel\banner_1.jpg" >
+				 <div class="carousel-caption d-none d-md-block heroBanner">
+						 <h2 class="heroHeading">Make your company smarter.</h2>
+			 
+						 <div class="heroText">Advanced data analysis is critical to staying ahead of the competition. Don’t let key business insights stay buried!</div>
+ 
+						 <button class="myButton buttonStudies"> See the Case Studies </button>
+				 </div>
+			 </div>
+ 
+			 <div class="carousel-item">
+				 <img class="d-block w-100" src="img\intro-carousel\banner_2.jpg" >
+				 <div class="carousel-caption d-none d-md-block heroBanner">
+						 <h2 class="heroHeading">Design-led software development drives revenue.</h2>
+			 
+						 <div class="heroText">Customer experience leaders grow 20–30 percent faster than their peers.</div>
+ 
+						 <button class="myButton buttonStudies"> See the Case Studies </button>
+				 </div>
+			 </div>
+					 
+		 </div>
+	 </section>
+ 
+ 
+ 
+		 <!-- Introductory Information Image Section-->
+	 <section class="introInfo row">	
+			 <article class="col-lg-3 col-md-3">
+					 <div class="col-lg-12 col-md-12 col-6 infoImg1" style="background-color:#EC5A3F;">
+							 <img src="img/cap1_strategy@2x.png" alt="strategy">
+					 </div>
+ 
+					 <div class="col-lg-12 col-md-12 col-6 infoText1">
+						 <h2 style="color:#EC5A3F;">STRATEGY</h2>
+							 <p>First, we sit down with you to assess your current digital capabilities, and form a plan to educate your team and transform your business.</p>
+					 </div>
+			 </article>
+			 
+			 <article class="col-lg-3 col-md-3">
+				 <div class="col-lg-12 col-md-12 col-6 infoImg2" style="background-color: #F68C36;">
+						 <img src="img/cap2_design@2x.png" alt="strategy">
+				 </div>
+ 
+				 <div class="col-lg-12 col-md-12 col-6 infoText2">
+					 <h2 style="color: #F68C36;">DESIGN</h2>
+						 <p>We use the latest tools and techniques to unravel complexity, crafting products and solutions that deliver results and are delightful to use.</p>
+				 </div>
+			 </article>
+ 
+ 
+			 <article class="col-lg-3 col-md-3">
+				 <div class="col-lg-12 col-md-12 col-6 infoImg1" style="background-color: #D42F2E;">
+						 <img src="img/cap3_implementation@2x.png" alt="strategy">
+				 </div>
+ 
+				 <div class="col-lg-12 col-md-12 col-6 infoText1">
+					 <h2 style="color: #D42F2E;">IMPLEMENTATION</h2>
+						 <p>We eat tricky cloud migrations, enterprise software, and app development for breakfast. There is no job too big or too complex for our team.</p>
+				 </div>
+			 </article>
+ 
+ 
+			 <article class="col-lg-3 col-md-3">
+				 <div class="col-lg-12 col-md-12 col-6 infoImg2" style="background-color: #9F3A4A;">
+						 <img src="img/cap4_ops@2x.png" alt="strategy">
+				 </div>
+ 
+				 <div class="col-lg-12 col-md-12 col-6 infoText2">
+					 <h2 style="color: #9F3A4A;">OPERATIONS</h2>
+						 <p>Transform operations with advanced automation and data analysis, measurably aligning your systems and processes with your business goals.</p>
+				 </div>
+			 </article>
+	 </section>
+ 
+		 <!-- Learn More Link (HREF NEEDED) -->
+		 <div class="learnMore mainMargin headerMargin row">
+			 <a href="">Learn more about how we do what we do >></a>
+		 </div>
+		 
+		 <!-- Section Seperator -->
+		 <span class="sectionSep row"></span>
+ 
+		 <!-- Case Studies Section -->
+	 <section class="caseStudies">
+			 <h1 class="mainMargin headerMargin mainHeader"> Case Studies </h1>
+ 
+			 <div class="mainMargin row">
+				 <article class="caseStudy col-md-6 col-lg-6 col-12">
+					 <img src="img\microsoft-img.jpg" alt="">
+					 
+					 <div>
+						 <h2>Microsoft</h2>
+						 <p>Microsoft’s One Commercial Partner Organization had collected 5 years of partner utilization data via their Dynamics Learning platform (DLP). This data held key insights that could be leveraged to help partners create better learning plans for partner resources and help surface the best courses individuals should take to advance their ability to successfully implement Microsoft’s Dynamic family f products.</p>
+					 </div>
+				 </article>
+				 
+				 <article class="caseStudy col-md-6 col-lg-6 col-12">
+					 <img src="img\gm-img.jpg" alt="">
+ 
+					 
+					 <div>
+							 <h2>General Motors</h2>
+						 <p>GM wanted to improve the way they designed and built Human Machine Interfaces (HMI) for In-Vehicle-Infotainment system.
+							 <br />
+						 The legacy process included the drafting of an over 1000 page specification that was sent to multiple suppliers for different world-wide markets. This process led to higher costs as well as usability and quality problems.</p>
+					 </div>
+				 </article>
+			 </div>
+ 
+			 <div class="mainMargin row">
+				 <article class="caseStudy col-md-6 col-lg-6 col-12">
+					 <img src="img\stanford-img.jpg" alt="">
+ 
+					 <div>
+						 <h2>STANFORD UNIVERSITY</h2>
+						 <p>Stanford needed a design and development partner that could assist them in creating new solutions that service their students and employees. Existing systems were perceived as hard to use, with information difficult to find. The goal was to make these systems more accessible both on the web and via mobile and tablet devices to serve this highly mobile audience.</p>
+					 </div>
+				 </article>
+ 
+				 <article class="caseStudy col-md-6 col-lg-6 col-12">
+					 <img src="img\insitu-img.png" alt="">
+					 
+					 <div>
+						 <h2>INSITU</h2>
+						 <p>Insitu wanted to develop, test, implement and document a “Change Analysis Planning Process” (CAPP) database and application that will compile and manage “Proposed System Design Changes” for the purpose of collecting proposal attributes, performing functions (sorting, filtering, etc.), conducting what-if scenarios to establish priorities and establishing overall ranking to enable decision making (budget distribution, project planning, team priority).</p>
+					 </div>
+				 </article>
+			 </div>
+ 
+		 <div class="learnMore mainMargin headerMargin row">
+				 <a href="">See more case studies >></a>
+		 </div>
+	 </section>
+ 
+	 <!-- Learn More Link (HREF NEEDED) -->
+	 
+		 
+	 <!-- Section Seperator -->
+	 <span class="sectionSep row"></span>
+	 
+	 <!-- Footer -->
+	 <div id="footer">
+		 <div id="footerHeading">
+			 <img src="img/footer-logo.jpg" alt="Ramp">
+			 <div class="floatRight">
+				 <button class="myButton buttonConsult"> Book a Consult </button>
+			 </div>
+		 </div>
+		 <div class="footerContent">
+			 <div class="footerText">
+				 <h4>site maps</h4>
+				 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dicta repudiandae unde? Placeat temporibus labore enim ducimus ipsa fuga nostrum sapiente dignissimos tempore molestiae error, vel culpa ab minima. Vel.</p>
+			 </div>
+			 <div class="footerText">
+				 <h4>site maps</h4>
+				 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dicta repudiandae unde? Placeat temporibus labore enim ducimus ipsa fuga nostrum sapiente dignissimos tempore molestiae error, vel culpa ab minima. Vel.</p>
+			 </div>
+			 <div class="footerText">
+				 <h4>site maps</h4>
+				 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dicta repudiandae unde? Placeat temporibus labore enim ducimus ipsa fuga nostrum sapiente dignissimos tempore molestiae error, vel culpa ab minima. Vel.</p>
+			 </div>
+			 <div class="footerText">
+				 <h4>site maps</h4>
+				 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi dicta repudiandae unde? Placeat temporibus labore enim ducimus ipsa fuga nostrum sapiente dignissimos tempore molestiae error, vel culpa ab minima. Vel.</p>
+			 </div>
+		 </div>
+		 <div class="bottomFooter">
+			 <div id="color1" class="footer_colors"></div>
+			 <div id="color2" class="footer_colors"></div>
+			 <div id="color3" class="footer_colors"></div>
+			 <div id="color4" class="footer_colors"></div>
+		 </div>
+	 </div>
+ 
+	 <script src="js/myJs.js"></script>
+	 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+ </body>
+ </html>

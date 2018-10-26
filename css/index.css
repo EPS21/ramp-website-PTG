@@ -140,3 +140,23 @@
     {
         font-size: 1.2em;
     }
+/********************
+ ** Navbar Styling **
+ ********************/
+ /*
+ a.nav-link {  
+    color: #fff!important;
+    
+ }
+
+ .navbar {
+    background-color: transparent;    
+ }
+*/
+
+ /** Not part of navbar just for testing **/
+#index-body {    
+    background: url("../img/intro-carousel/banner_1.jpg");
+    background-size: cover;
+    
+}

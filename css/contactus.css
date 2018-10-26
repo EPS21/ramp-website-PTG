@@ -1,0 +1,27 @@
+
+/* Bootstrap overrides */
+.form-control {
+    border-radius: 25px;
+}
+
+#contact-us {
+    background-color: #FAFAFA;
+}
+
+#contact-info {
+    background-color: #FFFFFF;
+}
+
+h2 {
+    color: #EC5A3F;
+}
+
+
+
+/* To make forms not stay at 75% in phone resolution */
+@media screen and (max-width: 475px) {
+    .w-75 {
+        width: 100%!important;
+    }
+}
+

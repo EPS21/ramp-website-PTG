@@ -1,20 +1,17 @@
-<<<<<<< HEAD
+
 /* Thematic Changes  */
 
+
 * {
-=======
-*{
->>>>>>> davidsBranch
+
     margin: 0;
     padding: 0;
 }
 
-<<<<<<< HEAD
 h1,h2,h3,h4,h5,h6
 {
     font-family: Oswald;
 }
-=======
 /********* Button Styling *********/
 
 a.nav-link {
@@ -44,7 +41,6 @@ header {
 }
 
 /* Thematic Changes  */
->>>>>>> davidsBranch
 .row 
 {
     max-width: 100%;
@@ -56,12 +52,9 @@ header {
     height: auto;
     display: block;
     margin: auto;
-<<<<<<< HEAD
     border: 1px solid #d3d3d3
 }
-=======
 } */
->>>>>>> davidsBranch
 .mainMargin
 {
     margin-left: 50px;
@@ -85,13 +78,20 @@ header {
 
 /* NavBar */
 
-<<<<<<< HEAD
-nav {
-    
-    /*padding-top: 40px;*/
-    
+/*********************
+ ** Body Font Sizes **
+ *********************/
+ H1 { font-size: 2.222em ; font-family: Cabin ; color: #414082 }
+ H2 { font-size: 1.333em ; font-family: Oswald ; color: #333333 ; text-transform: uppercase ; }
+ P { font-size: 1.333em ; font-family: Raleway ; font-weight: 600 ; color: #333333; text-align:left ; } 
+ P.light { font-weight: 400 ; color: #666666 ; max-width: 1024px }
+
+/** Main Styling **/
+section {    
+    padding-left: 50px;
+    padding-right: 50px;
 }
-=======
+
 /* Intro Info Section */
     .introInfo h2
     {
@@ -113,30 +113,95 @@ nav {
         float: left;
         display: inline;
     }
->>>>>>> davidsBranch
-
-a.nav-link {  font-size: 1.111em ; font-family: Oswald ; /*padding: 0 0 15px 25px*/;  color: #ffffff }
-
-a.nav-brand { 
-    padding-top: 0;
-    padding-bottom: 0;
 }
 
-#navbar {
-    padding: 0px 30px 0px 30px;
+.mainMargin
+{
+   margin-left: 50px;
+   margin-right: 50px;
+}
+.headerMargin
+{
+   padding-top: 60px;
+   padding-bottom: 60px;
+   background-color: #FAFAFA;
+   
+}
+.mainHeader
+{
+   color: #424182;
 }
 
-#test {
-    font-family: 'Oswald';
+body {
+    padding-top: 115px;
 }
 
-header {
-    padding: 26px 0; /* 40 - 8 */
+.separater {
+    background-color: #E6E7E8;    
+}
+
+.active {
+    color: #414082!important;
+}
+
+/*
+main {
+    padding-top: 116px;    
+} 
+*/
+
+/********************
+ ** Navbar Styling **
+ ********************/
+a.nav-link {  
+    font-size: 1.111em; 
+    font-family: Oswald; 
+    padding: 0px 0px 0px 25px!important;
+    color: #666666    
+}
+
+.active {
+    color: #414082;
+}
+
+a.navbar-brand { 
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    
+}
+
+.navbar {    
     border-bottom: 1px solid #dedede;
     background-color: black;
+
+
+    opacity: 0.95;
+    padding: 40px 50px ;
+    background-color: #FFFFFF;
+    
 }
 
+/** Responsive Elements **/
 
+/* Elements with width-75 on larger screens */
+@media screen and (max-width: 475px) {
+    .w-75 {
+        width: 100%!important;
+    }
+}
+
+/* Navbar toggler button */
+@media screen and (max-width: 475px) {
+    .navbar-toggler {        
+        position: absolute;
+        right: 25px;
+    }
+}
+
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
 
 /* Seperators */
 .sectionSep
@@ -156,6 +221,15 @@ header {
 body{
     
 }
+/* {
+    margin: 0;
+    padding: 0;
+} */
+
+/********* Button Styling *********/
+/* body {
+    background-color: black;
+} */
 
 .myButton 
 {

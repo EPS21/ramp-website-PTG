@@ -1,0 +1,46 @@
+/********* This is the Leadership styling page *********/
+
+#title{
+    background-color: #E6E7E8;
+    padding: 50px;
+    text-transform: uppercase;
+    color: #414082;
+}
+
+/********* Vishwa styling *********/
+
+#vishwa{
+    background-image: url("../img/vishwa.jpg");
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    /* height: 600px; */
+    width: 305px;
+    max-width: 100%;
+    max-height: 100%
+}
+
+#vishwaInfo{
+    background-color: #EC5A3F;
+    color: #fff;
+}
+
+#vishwaInfo h5{
+    text-transform: uppercase
+}
+
+/********* Bobs styling *********/
+
+#bob{
+    background-image: url("../img/bob.png");
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+/***** Basic reset for Bootstrap *****/
+.reset{
+    padding: 0;
+    margin: 0;
+}

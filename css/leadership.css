@@ -21,18 +21,44 @@
     color: #414082;
 }
 
-/* .comTabs{
-    margin-bottom: 25px
-} */
-
 .comInfo{
+    margin: 35px 0;
     padding: 0 50px
 }
 
 .comInfo h4{
     text-transform: uppercase;
-    color: #A62033;
     /* margin-top:  */
+}
+
+#ptg h4{
+    color: #A62033;
+}
+
+#ramp h4{
+    color: #EC5A3F;
+}
+
+#codeSmart h4{
+    color: #72BF44;
+}
+
+#fyrSoft h4{
+    color: #F7941F;
+}
+
+.modImg{
+    text-align: center;
+    min-height: 0px;
+    background-color: transparent;
+    width: 80%;
+}
+
+.modImg img{
+    margin-left: 15px;
+    text-align: center;
+    height: 75px;
+    width: 205px;
 }
 
 /********* Vishwa styling *********/

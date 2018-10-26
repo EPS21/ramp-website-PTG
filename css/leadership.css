@@ -55,8 +55,10 @@
 }
 
 .modImg img{
-    margin-left: 15px;
-    text-align: center;
+    /* margin-left: 35px; */
+    /* text-align: center; */
+    display: block;
+    margin: auto;
     height: 75px;
     width: 205px;
 }

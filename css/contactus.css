@@ -1,3 +1,30 @@
+
+/* Bootstrap overrides */
+.form-control {
+    border-radius: 25px;
+}
+
+#contact-us {
+    background-color: #FAFAFA;
+}
+
+#contact-info {
+    background-color: #FFFFFF;
+}
+
+h2 {
+    color: #EC5A3F;
+}
+
+
+
+/* To make forms not stay at 75% in phone resolution */
+@media screen and (max-width: 475px) {
+    .w-75 {
+        width: 100%!important;
+    }
+}
+
 /* 
 section {
     padding-left: 50px;
@@ -23,53 +50,3 @@ section {
     margin-bottom: 16px;
 }
 */
-
-/* Bootstrap overrides */
-.form-control {
-    border-radius: 25px;
-}
-
-section {    
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-#contact-us {
-    background-color: #FAFAFA;
-}
-
-#contact-info {
-    background-color: #FFFFFF;
-}
-
-.separater {
-    background-color: #E6E7E8;    
-}
-
-h2 {
-    color: #EC5A3F;
-}
-
-.active {
-    color: #414082!important;
-}
-
-/* To make forms not stay at 75% in phone resolution */
-@media screen and (max-width: 475px) {
-    .w-75 {
-        width: 100%!important;
-    }
-}
-
-
-
-/*
-form input {
-    border-radius: 35px;
-}
-
-form textarea {
-    border-radius: 35px;
-}
-*/
-

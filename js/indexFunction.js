@@ -1,8 +1,7 @@
 /* This is for index page only */
 /** TODO
- * Add Animations
+ * Make animations not laggy?
  */
-
 $( document ).ready(function() {    
     $('.navbar').css('background-color', 'transparent');
     $('.nav-link').css('color', '#fff');

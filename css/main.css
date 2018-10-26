@@ -6,6 +6,46 @@
  P { font-size: 1.333em ; font-family: Raleway ; font-weight: 600 ; color: #333333; text-align:left ; } 
  P.light { font-weight: 400 ; color: #666666 ; max-width: 1024px }
 
+/** Main Styling **/
+section {    
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.mainMargin
+{
+   margin-left: 50px;
+   margin-right: 50px;
+}
+.headerMargin
+{
+   padding-top: 60px;
+   padding-bottom: 60px;
+   background-color: #FAFAFA;
+   
+}
+.mainHeader
+{
+   color: #424182;
+}
+
+body {
+    padding-top: 115px;
+}
+
+.separater {
+    background-color: #E6E7E8;    
+}
+
+.active {
+    color: #414082!important;
+}
+
+/*
+main {
+    padding-top: 116px;    
+} 
+*/
 
 /********************
  ** Navbar Styling **
@@ -35,10 +75,16 @@ a.navbar-brand {
     
 }
 
-main {
-    margin-top: 116px;    
+/** Responsive Elements **/
+
+/* Elements with width-75 on larger screens */
+@media screen and (max-width: 475px) {
+    .w-75 {
+        width: 100%!important;
+    }
 }
 
+/* Navbar toggler button */
 @media screen and (max-width: 475px) {
     .navbar-toggler {        
         position: absolute;

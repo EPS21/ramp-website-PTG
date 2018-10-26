@@ -1,3 +1,7 @@
+body
+{
+    margin-top: 0px ;
+}
 
 
 /* Hero Banner  */
@@ -35,6 +39,12 @@
         left: 0;
         right: 0;
         background: rgba(0,0,0, 0.6);
+}
+
+.carousel-caption
+{
+    display: block;
+    top: 30vh; 
 }
 
 .carousel-indicators li.active,
@@ -154,9 +164,3 @@
  }
 */
 
- /** Not part of navbar just for testing **/
-#index-body {    
-    background: url("../img/intro-carousel/banner_1.jpg");
-    background-size: cover;
-    
-}

@@ -1,0 +1,88 @@
+/********* This is the Leadership styling page *********/
+
+#title{
+    background-color: #E6E7E8;
+    padding: 50px;
+    text-transform: uppercase;
+    color: #414082;
+}
+
+.textStyling{
+    color: #fff;
+    padding: 25px;
+}
+
+.textStyling h5{
+    text-transform: uppercase
+}
+
+.subTitle{
+    padding: 50px;
+    color: #414082;
+}
+
+/* .comTabs{
+    margin-bottom: 25px
+} */
+
+.comInfo{
+    padding: 0 50px
+}
+
+.comInfo h4{
+    text-transform: uppercase;
+    color: #A62033;
+    /* margin-top:  */
+}
+
+/********* Vishwa styling *********/
+
+#vishwa{
+    background-image: url("../img/vishwa.jpg");
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    /* height: 600px; */
+    width: 305px;
+    max-width: 100%;
+    max-height: 100%
+}
+
+#vishwaInfo{
+    background-color: #EC5A3F;
+}
+
+/********* Bobs styling *********/
+
+#bob{
+    background-image: url("../img/bob.png");
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#bobInfo{
+    background-color: #F7941F;
+}
+
+/******** Marks styling ********/
+
+#mark{
+    background-image: url("../img/mark.png");
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#markInfo{
+    background-color: #A62033;
+}
+
+/***** Basic reset for Bootstrap *****/
+.reset{
+    padding: 0;
+    margin: 0;
+}

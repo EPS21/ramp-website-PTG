@@ -1,0 +1,70 @@
+/******** This is a footer ********/
+
+.footer{
+    background-color: #fafafa;
+}
+
+.space{
+    background-color: #E6E7E8;
+    height: 50px
+}
+
+.logoLeft{
+    float: left;
+    padding: 0;
+}
+
+.logoLeft img{
+    margin: 0;
+    margin-top: 25px;
+    height: 30px;
+    width: 165px;
+}
+
+.buttonRight button{
+    float: right;
+    width: 350px;
+    max-width: 100%;
+}
+
+.siteMaps h4{
+    text-transform: uppercase;
+}
+
+.siteMaps{
+    display: inline;
+    padding: 0 35px;
+}
+
+.footerHeading{
+    padding: 60px 50px
+}
+
+.footerColors{
+    height: 25px;
+    margin-top: 85px;
+    padding: 0;
+}
+
+.red{
+    background-color: #A62033;
+}
+.darkOrange{
+    background-color: #EC5A3F;
+}
+.green{
+    background-color: #72BF44;
+}
+.orange{
+    background-color: #F7941F;
+}
+
+@media screen and (max-width: 575px){
+    .logoLeft{
+        display: none;
+    }
+
+    .siteMaps{
+        display: none;
+    }
+}

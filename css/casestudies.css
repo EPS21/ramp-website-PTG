@@ -1,8 +1,41 @@
 .mySearch
 {
-    width: 40%;
+    position: relative;
+    width: 40vw;
+    margin-left:60px;
 }
-    .mySearchBtn
+
+@media screen and (max-width: 575px)
+{
+    .mySearch
     {
-        top:-25px;
+        width: 70vw;
     }
+    
+    .mySearch button
+    {
+        
+    }
+}
+    .mySearch button 
+    {
+        top:-35px;
+        width: 35px;
+        height: 35px;
+        
+        margin-left: 100%;
+        right: 35px;
+        border: none;
+        border-radius: 25px;
+        display: block;
+        position: relative;
+        background-image: url('../img/search.png');
+        background-size: contain;
+        background-repeat: no-repeat;
+
+        transition: background-color 0.5s
+    }
+        .mySearch button:hover
+        {
+             background-color: #51A4DB;
+        }

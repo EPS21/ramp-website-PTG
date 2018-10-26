@@ -46,16 +46,16 @@
     padding: 0;
 }
 
-#color1{
+.red{
     background-color: #A62033;
 }
-#color2{
+.darkOrange{
     background-color: #EC5A3F;
 }
-#color3{
+.green{
     background-color: #72BF44;
 }
-#color4{
+.orange{
     background-color: #F7941F;
 }
 

@@ -9,33 +9,35 @@
 
 .methodology{
     background-color: #fafafa;
-    /* padding-top: 40px; */
     padding: 40px 50px 0;
 }
 
-.tabs{
+/********** The heading of the tabs **********/
+
+.tab{
     padding-bottom: 45px;
 }
 
-.tabHeadings{
+.tabHeading{
     padding: 25px;
-    color: #fff;
 }
 
-.tabHeadings img{
+.png img{
     max-height: 125px;
     height: 100%;
+}
+
+.png{
     display: inline-block;
 }
 
-.tabHeadings h3{
-    text-transform: uppercase
+.tabInfoHead{
+    color: #fff;
+    display: inline-block
 }
 
-.img-implementing span{
-    background-image: url("../img/sample-img.jpg");
-    background-size: cover;
-    height: 500px
+.tabInfoHead h3{
+    text-transform: uppercase;
 }
 
 #strategy{
@@ -52,4 +54,14 @@
 
 #ops{
     background-color: #9F3A4A;
+}
+
+.noPad{
+    padding: 0;
+}
+
+@media screen and (max-width: 768px){
+    .sampleImg{
+        display: none;
+    }
 }

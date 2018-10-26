@@ -47,7 +47,8 @@ body
     text-transform: uppercase;
     color: #414082;
     font-family: Oswald;
-    margin-bottom: 50px;
+    
+    margin-top: 0!important;
 }
 
 
@@ -204,6 +205,11 @@ a.nav-link {
     .scrollUp
     {
         right: 43%;
+    }
+
+    .navbar-toggler {
+        position: fixed;
+        right: 25;
     }
     
 }

@@ -63,12 +63,17 @@
     width: 205px;
 }
 
+.hovering:hover .hoverImg {
+    background-color: #414082;
+    opacity: 25;
+}
+
 /********* Vishwa styling *********/
 
 #vishwa{
     background-image: url("../img/vishwa.jpg");
-    /* background-size: contain;
-    background-repeat: no-repeat; */
+    background-size: cover;
+    background-repeat: no-repeat;
     /* height: 600px; */
     width: 305px;
     max-width: 100%;
@@ -81,8 +86,9 @@
 
 /********* Bobs styling *********/
 
-#bob{
+.bob{
     background-image: url("../img/bob.png");
+    background-size: cover;
     background-repeat: no-repeat;
     width: 350px;
     height: 350px;
@@ -96,8 +102,21 @@
 
 /******** Marks styling ********/
 
-#mark{
+.hoverImg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+ }
+
+.mark{
     background-image: url("../img/mark.png");
+    background-size: cover;
     background-repeat: no-repeat;
     width: 350px;
     height: 350px;

@@ -1,0 +1,75 @@
+/* 
+section {
+    padding-left: 50px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;   
+    
+}
+
+.form-input {
+    border: 1px solid #dedede;
+    border-radius: 35px;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+*/
+
+/* Bootstrap overrides */
+.form-control {
+    border-radius: 25px;
+}
+
+section {    
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#contact-us {
+    background-color: #FAFAFA;
+}
+
+#contact-info {
+    background-color: #FFFFFF;
+}
+
+.separater {
+    background-color: #E6E7E8;    
+}
+
+h2 {
+    color: #EC5A3F;
+}
+
+.active {
+    color: #414082!important;
+}
+
+/* To make forms not stay at 75% in phone resolution */
+@media screen and (max-width: 475px) {
+    .w-75 {
+        width: 100%!important;
+    }
+}
+
+
+
+/*
+form input {
+    border-radius: 35px;
+}
+
+form textarea {
+    border-radius: 35px;
+}
+*/
+

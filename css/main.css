@@ -1,43 +1,65 @@
+/*********************
+ ** Body Font Sizes **
+ *********************/
+ H1 { font-size: 2.222em ; font-family: Cabin ; color: #414082 }
+ H2 { font-size: 1.333em ; font-family: Oswald ; color: #333333 ; text-transform: uppercase ; }
+ P { font-size: 1.333em ; font-family: Raleway ; font-weight: 600 ; color: #333333; text-align:left ; } 
+ P.light { font-weight: 400 ; color: #666666 ; max-width: 1024px }
+
+
 /********************
  ** Navbar Styling **
  ********************/
 a.nav-link {  
-    font-size: 1.111em ; 
-    font-family: Oswald ; 
-    /*padding: 0 0 15px 25px*/;
-    color: #ffffff; }
-
-a.nav-brand { 
-    padding-top: 0;
-    padding-bottom: 0;
+    font-size: 1.111em; 
+    font-family: Oswald; 
+    padding: 0px 0px 0px 25px!important;
+    color: #666666    
 }
 
-#navbar {
-    padding: 0px 30px 0px 30px;
+.active {
+    color: #414082;
 }
 
-header {
-    padding: 26px 0; /* 40 - 8 */
+a.navbar-brand { 
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    
+}
+
+.navbar {    
     border-bottom: 1px solid #dedede;
+    opacity: 0.95;
+    padding: 40px 50px ;
+    background-color: #FFFFFF;
+    
 }
 
-/** Not part of navbar just for testing **/
-#index-body {    
-    background: url("../img/intro-carousel/banner_1.jpg");
-    background-size: cover;
+main {
+    margin-top: 116px;    
 }
 
+@media screen and (max-width: 475px) {
+    .navbar-toggler {        
+        position: absolute;
+        right: 25px;
+    }
+}
 
-* {
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* {
     margin: 0;
     padding: 0;
-}
-
+} */
 
 /********* Button Styling *********/
-body{
+/* body {
     background-color: black;
-}
+} */
 
 .myButton 
 {

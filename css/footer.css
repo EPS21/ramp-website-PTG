@@ -16,12 +16,14 @@
 
 .logoLeft img{
     margin: 0;
+    margin-top: 25px;
     height: 30px;
     width: 165px;
 }
 
 .buttonRight button{
     float: right;
+    width: 350px;
     max-width: 100%;
 }
 
@@ -55,4 +57,14 @@
 }
 #color4{
     background-color: #F7941F;
+}
+
+@media screen and (max-width: 575px){
+    .logoLeft{
+        display: none;
+    }
+
+    .siteMaps{
+        display: none;
+    }
 }

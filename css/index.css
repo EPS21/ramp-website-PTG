@@ -1,3 +1,7 @@
+body
+{
+    margin-top: 0px ;
+}
 
 
 /* Hero Banner  */
@@ -35,6 +39,12 @@
         left: 0;
         right: 0;
         background: rgba(0,0,0, 0.6);
+}
+
+.carousel-caption
+{
+    display: block;
+    top: 30vh; 
 }
 
 .carousel-indicators li.active,
@@ -113,5 +123,44 @@
     font-size: 1.2em;
 }
 
+/* Case Studies Section */
+.caseStudy
+{
+    margin-bottom:50px;
+    padding: 20px;
+}
+        
+    .caseStudy img
+    {
+        margin-bottom: 25px;
+        max-width: 100%;
+        height: 350px;
 
+        transition: opacity 0.3s;
+    }
+
+    .caseStudy img:hover
+    {
+        opacity: 0.7;
+        background: rgba(0,0,0, 0.6);
+    }
+
+        
+    .caseStudy h2
+    {
+        font-size: 1.2em;
+    }
+/********************
+ ** Navbar Styling **
+ ********************/
+ /*
+ a.nav-link {  
+    color: #fff!important;
     
+ }
+
+ .navbar {
+    background-color: transparent;    
+ }
+*/
+

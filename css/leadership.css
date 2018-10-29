@@ -1,0 +1,135 @@
+/********* This is the Leadership styling page *********/
+
+#title{
+    background-color: #E6E7E8;
+    padding: 50px;
+    text-transform: uppercase;
+    color: #414082;
+}
+
+.textStyling{
+    color: #fff;
+    padding: 25px;
+}
+
+.textStyling h5{
+    text-transform: uppercase
+}
+
+.subTitle{
+    padding: 50px;
+    color: #414082;
+}
+
+.comInfo{
+    margin: 35px 0;
+    padding: 0 50px
+}
+
+.comInfo h4{
+    text-transform: uppercase;
+    /* margin-top:  */
+}
+
+#ptg h4{
+    color: #A62033;
+}
+
+#ramp h4{
+    color: #EC5A3F;
+}
+
+#codeSmart h4{
+    color: #72BF44;
+}
+
+#fyrSoft h4{
+    color: #F7941F;
+}
+
+.modImg{
+    text-align: center;
+    min-height: 0px;
+    background-color: transparent;
+    width: 80%;
+}
+
+.modImg img{
+    /* margin-left: 35px; */
+    /* text-align: center; */
+    display: block;
+    margin: auto;
+    height: 75px;
+    width: 205px;
+}
+
+.hovering:hover .hoverImg {
+    background-color: #414082;
+    opacity: 25;
+}
+
+/********* Vishwa styling *********/
+
+#vishwa{
+    background-image: url("../img/vishwa.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* height: 600px; */
+    width: 305px;
+    max-width: 100%;
+    max-height: 100%
+}
+
+#vishwaInfo{
+    background-color: #EC5A3F;
+}
+
+/********* Bobs styling *********/
+
+.bob{
+    background-image: url("../img/bob.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#bobInfo{
+    background-color: #F7941F;
+}
+
+/******** Marks styling ********/
+
+.hoverImg{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+ }
+
+.mark{
+    background-image: url("../img/mark.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#markInfo{
+    background-color: #A62033;
+}
+
+/***** Basic reset for Bootstrap *****/
+.reset{
+    padding: 0;
+    margin: 0;
+}

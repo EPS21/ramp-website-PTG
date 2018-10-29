@@ -7,8 +7,13 @@
 
 h1,h2,h3,h4,h5,h6
 {
-    font-family: Oswald;
+    
 }
+
+p {
+    font-size: 1.1em!important;
+}
+
 .row 
 {
     max-width: 100%;
@@ -20,7 +25,6 @@ img
     height: auto;
     display: block;
     margin: auto;
-    border: 1px solid #d3d3d3
 }
 .mainMargin
 {
@@ -37,17 +41,32 @@ img
     color: #424182;
 }
 
-
-* {
-    margin: 0;
-    padding: 0;
+body
+{
+    margin-top: 115px;
 }
+
+.title{
+    background-color: #E6E7E8;
+    padding: 50px;
+    text-transform: uppercase;
+    color: #414082;
+    font-family: Oswald;
+    
+    margin-top: 0!important;
+}
+
+
 
 /* NavBar */
 
-nav {
-    
-    /*padding-top: 40px;*/
+.navbar 
+{    
+    border-bottom: 1px solid #dedede;
+    opacity: 0.95;
+
+    padding: 40px 50px;
+    background-color: #FFFFFF;
     
 }
 
@@ -58,9 +77,7 @@ a.nav-brand {
     padding-bottom: 0;
 }
 
-#navbar {
-    padding: 0px 30px 0px 30px;
-}
+
 
 #test {
     font-family: 'Oswald';
@@ -69,8 +86,20 @@ a.nav-brand {
 header {
     padding: 26px 0; /* 40 - 8 */
     border-bottom: 1px solid #dedede;
-    background-color: black;
+
 }
+
+a.nav-link {  
+    font-size: 1.111em; 
+    font-family: Oswald; 
+    padding: 0px 0px 0px 25px!important;
+    color: #666666    
+}
+
+.active {
+    color: #414082;
+}
+
 
 
 
@@ -118,10 +147,6 @@ header {
 
 
 /********* Button Styling *********/
-body{
-    
-}
-
 .myButton 
 {
     width: 350px;
@@ -137,6 +162,13 @@ body{
     border-radius: 35px; 
 }
 /********* Hero Banner Button *********/
+
+.buttonStudies
+{
+    display:block;
+    margin:auto;
+}
+
 .buttonStudies:hover 
 {
     background-color: #ffffff; 
@@ -179,9 +211,14 @@ body{
     {
         right: 43%;
     }
+
+    .navbar-toggler {        
+        position: absolute;
+        right: 25px;
+    }
     
 }
-        
+
 
 /******** This is a footer ********/
 

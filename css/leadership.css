@@ -61,11 +61,7 @@
     width: 205px;
 }
 
-<<<<<<< HEAD
 .hovering:hover .hoverImg{
-=======
-.hovering:hover .hoverImg {
->>>>>>> 1cd143b2fc4ff3dc6e6a183851e047925f74d420
     background-color: #414082;
     opacity: 25;
 }
@@ -116,8 +112,6 @@
 
 /******** Marks styling ********/
 
-<<<<<<< HEAD
-=======
 .hoverImg{
     position: absolute;
     top: 0;
@@ -130,7 +124,6 @@
     transition: .5s ease;
  }
 
->>>>>>> 1cd143b2fc4ff3dc6e6a183851e047925f74d420
 .mark{
     background-image: url("../img/mark.png");
     background-size: cover;

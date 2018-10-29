@@ -1,3 +1,5 @@
+// Not needed for now
+/*
 $(document).ready(function(){
     $('a.nav-link').hover(
 		function() {
@@ -7,3 +9,4 @@ $(document).ready(function(){
 		}		
 	);
 })
+*/

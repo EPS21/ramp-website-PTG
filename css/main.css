@@ -60,24 +60,25 @@ body
 
 /* NavBar */
 
-.navbar 
-{    
+.navbar {    
     border-bottom: 1px solid #dedede;
     opacity: 0.95;
-
     padding: 40px 50px;
     background-color: #FFFFFF;
-    
+
+
 }
 
-a.nav-link {  font-size: 1.111em ; font-family: Oswald ; /*padding: 0 0 15px 25px*/;  color: #ffffff }
+a.nav-link {
+    font-size: 1.111em ;
+    font-family: Oswald ;
+    /*padding: 0 0 15px 25px*/;
+    color: #ffffff }
 
 a.nav-brand { 
     padding-top: 0;
     padding-bottom: 0;
 }
-
-
 
 #test {
     font-family: 'Oswald';
@@ -89,12 +90,14 @@ header {
 
 }
 
+/*
 a.nav-link {  
     font-size: 1.111em; 
     font-family: Oswald; 
     padding: 0px 0px 0px 25px!important;
     color: #666666    
 }
+*/
 
 .active {
     color: #414082;

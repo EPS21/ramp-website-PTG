@@ -12,11 +12,9 @@
     background-color: #FFFFFF;
 }
 
-h2 {
-    color: #EC5A3F;
+h3 {
+    color: #F68C36 ;
 }
-
-
 
 /* To make forms not stay at 75% in phone resolution */
 @media screen and (max-width: 475px) {

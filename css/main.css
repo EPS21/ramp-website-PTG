@@ -9,6 +9,11 @@ h1,h2,h3,h4,h5,h6
 {
     
 }
+
+p {
+    font-size: 1.1em!important;
+}
+
 .row 
 {
     max-width: 100%;
@@ -47,7 +52,8 @@ body
     text-transform: uppercase;
     color: #414082;
     font-family: Oswald;
-    margin-bottom: 50px;
+    
+    margin-top: 0!important;
 }
 
 
@@ -205,9 +211,14 @@ a.nav-link {
     {
         right: 43%;
     }
+
+    .navbar-toggler {        
+        position: absolute;
+        right: 25px;
+    }
     
 }
-        
+
 
 /******** This is a footer ********/
 

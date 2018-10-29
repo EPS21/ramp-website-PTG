@@ -15,7 +15,11 @@
 .tabHeading{
     padding: 25px;
     margin: auto;
+<<<<<<< HEAD
     display: inline-block
+=======
+    display: inline-block;
+>>>>>>> 1cd143b2fc4ff3dc6e6a183851e047925f74d420
 }
 
 .png img{
@@ -32,15 +36,23 @@
     color: #fff;
     display: inline-block;
     margin: auto;
+<<<<<<< HEAD
     /* float: left; */
+=======
+>>>>>>> 1cd143b2fc4ff3dc6e6a183851e047925f74d420
 }
 
 .tabInfoHead h3{
     text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 .tabInfo{
     padding-top: 25px
+=======
+.tabInfo {
+    padding-top: 25px;
+>>>>>>> 1cd143b2fc4ff3dc6e6a183851e047925f74d420
 }
 
 #strategy{
@@ -63,7 +75,11 @@
     padding: 0;
 }
 
+<<<<<<< HEAD
 .sampleImg img{
+=======
+.sampleImg img {
+>>>>>>> 1cd143b2fc4ff3dc6e6a183851e047925f74d420
     width: 100%;
     height: 90%;
 }

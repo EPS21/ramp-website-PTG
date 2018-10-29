@@ -80,6 +80,7 @@
     text-align: center;
     height: 25%;
     width: 25%;
+    opacity: 1;
 }
 
 .hovering:hover .hoverImg{

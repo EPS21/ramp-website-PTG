@@ -55,20 +55,22 @@
 }
 
 .modImg img{
+    /* margin-left: 35px; */
+    /* text-align: center; */
     display: block;
     margin: auto;
     height: 75px;
     width: 205px;
 }
 
-.hovering:hover .hoverImg{
+.hovering:hover .hoverImg {
     background-color: #414082;
     opacity: 25;
 }
 
 /********* Vishwa styling *********/
 
-.vishwa{
+#vishwa{
     background-image: url("../img/vishwa.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -94,20 +96,8 @@
     max-width: 100%;
 }
 
-.bobInfo{
+#bobInfo{
     background-color: #F7941F;
-}
-
-.hoverImg{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
 }
 
 /******** Marks styling ********/
@@ -134,7 +124,7 @@
     max-width: 100%;
 }
 
-.markInfo{
+#markInfo{
     background-color: #A62033;
 }
 
@@ -142,16 +132,4 @@
 .reset{
     padding: 0;
     margin: 0;
-}
-
-@media screen and (max-width: 576px){
-    .mark{
-        width: 100%
-    }
-    .bob{
-        width: 100%
-    }
-    #vishwa{
-        width: 100%
-    }
 }

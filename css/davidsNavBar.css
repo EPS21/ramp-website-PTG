@@ -1,0 +1,38 @@
+/********* This is the Leadership styling page *********/
+
+#menu{
+    background-color: #fafafa;
+    padding: 40x 50px;
+}
+
+#menu img{
+    padding: 40x 50px;
+}
+
+#links{
+    float: right;
+}
+
+/********* The main content of this page *********/
+
+#title{
+    background-color: #E6E7E8;
+}
+
+#title h2{
+    color: #414082;
+    padding: 50px 40px; 
+    text-transform: uppercase;
+}
+
+#leadership{
+    background-color: red;
+    height: 500px;
+}
+
+#vishwaImg{
+    background-image: url("../img/vishwa.jpg");
+    background-size: cover;
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+}

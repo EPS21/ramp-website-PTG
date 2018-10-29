@@ -15,7 +15,7 @@
 .tabHeading{
     padding: 25px;
     margin: auto;
-    display: inline-block
+    display: inline-block;
 }
 
 .png img{
@@ -25,7 +25,6 @@
 
 .png{
     display: inline-block;
-    /* text-align: left; */
 }
 
 .tabInfoHead{
@@ -38,8 +37,8 @@
     text-transform: uppercase;
 }
 
-.tabInfo{
-    padding-top: 25px
+.tabInfo {
+    padding-top: 25px;
 }
 
 #strategy{

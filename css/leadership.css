@@ -55,6 +55,8 @@
 }
 
 .modImg img{
+    /* margin-left: 35px; */
+    /* text-align: center; */
     display: block;
     margin: auto;
     height: 75px;
@@ -113,7 +115,7 @@
     max-width: 100%;
 }
 
-.bobInfo{
+#bobInfo{
     background-color: #F7941F;
 }
 
@@ -129,7 +131,7 @@
     max-width: 100%;
 }
 
-.markInfo{
+#markInfo{
     background-color: #A62033;
 }
 
@@ -137,16 +139,4 @@
 .reset{
     padding: 0;
     margin: 0;
-}
-
-@media screen and (max-width: 576px){
-    .mark{
-        width: 100%
-    }
-    .bob{
-        width: 100%
-    }
-    #vishwa{
-        width: 100%
-    }
 }

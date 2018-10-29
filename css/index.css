@@ -27,6 +27,25 @@ body
             margin-bottom: 50px;
         }
 
+@media screen and (max-width:800px)
+{
+    .heroHeading
+    {
+        font-size: 1.4em;
+    }
+
+    .heroText
+    {
+        font-size: 0.8em;
+    }
+
+    .carousel-indicators
+    {
+        bottom: -25px;
+    }
+}
+
+
 
 /* Carousel */
 .carousel-item:before

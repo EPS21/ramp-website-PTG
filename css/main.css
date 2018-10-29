@@ -161,6 +161,18 @@ a.nav-link {
     border: 1px solid #ffffff; 
     border-radius: 35px; 
 }
+
+    @media screen and (max-width: 550px)
+    {
+        .myButton
+        {
+            width: 150px;
+            font-size: 0.8em;
+            bottom: 15%;
+        }
+            
+    }
+
 /********* Hero Banner Button *********/
 
 .buttonStudies
@@ -197,19 +209,27 @@ a.nav-link {
     position: fixed;
     bottom: 25px;
     right: 25px;
-    height: 50px;
     width: 50px;
-    border-radius: 25px;
-    background-image: url('../img/up-chev.png');
-    background-size: contain;
-    background-repeat: no-repeat;
+    height: 50px;
+    border-radius: 10vw;
+    background-color: #424182
 }
+
+    #chev-up{        
+        fill: #FFFFFF;
+        width: inherit;
+    }
 
 @media screen and (max-width: 475px)
 {
     .scrollUp
     {
-        right: 43%;
+        right: 43vw;
+    }
+
+    #chev-up
+    {
+        width: 10vw;   
     }
 
     .navbar-toggler {        

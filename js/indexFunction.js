@@ -3,12 +3,12 @@ $(document).ready(function() {
     $(window).scroll(function() {
         // When scrolled down past 100pixels
         if ($(this).scrollTop() > 100) {
-            $('nav').removeClass('nav-scrolled');
+            $('nav').removeClass('nav-before');
             //$('nav').addClass('nav-after'); 
         // When scrolled back to top           
         } else {
             //$('nav').removeClass('nav-after');
-            $('nav').addClass('nav-scrolled');            
+            $('nav').addClass('nav-before');            
         }
     });
 });

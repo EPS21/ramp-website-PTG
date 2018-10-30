@@ -147,6 +147,49 @@ body
     margin-bottom:50px;
     padding: 20px;
 }
+    .caseStudyImg
+    {
+        
+
+        margin-bottom: 25px;
+        max-width: 100%;
+        height: 250px;
+
+        transition: opacity 0.3s;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+        .caseStudyImg:hover
+        {
+            opacity: 0.7;
+        }
+
+    @media screen and (max-width: 450px)
+    {
+        .caseStudyImg
+        {
+            background-size: contain;
+        }
+    }
+   
+    #csMicrosoft
+    {   
+        background-image: url('../img/microsoft-img.jpg');
+        background-position: 0px -100px;
+    }
+    #csGmotors
+    {
+        background-image: url('../img/gm-img.jpg');
+    }
+    #csStanford
+    {   
+        background-image: url('../img/stanford-img.jpg');
+    }
+    #csInsitu
+    {
+        background-image: url('../img/insitu-img.png');
+        background-size: contain;
+    }
         
     .caseStudy img
     {

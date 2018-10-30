@@ -1,7 +1,21 @@
 /* This is for index page only */
-/** TODO
- * Make animations not laggy?
- */
+$(document).ready(function() {       
+    $(window).scroll(function() {
+        // When scrolled down past 100pixels
+        if ($(this).scrollTop() > 100) {
+            $('nav').removeClass('nav-scrolled');
+            //$('nav').addClass('nav-after'); 
+        // When scrolled back to top           
+        } else {
+            //$('nav').removeClass('nav-after');
+            $('nav').addClass('nav-scrolled');            
+        }
+    });
+});
+
+
+// The old animations using jQuery (very slow)
+/* 
 $( document ).ready(function() { 
     $('.navbar').css('background-color', 'transparent');
     $('.nav-link').css('color', '#fff');

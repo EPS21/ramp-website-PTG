@@ -176,8 +176,7 @@ body
         {
             margin: 0;
             height: 125x;
-            border: 1px solid blue;
-            background-position: center
+            background-position: center;
         }
 
         #csMicrosoft

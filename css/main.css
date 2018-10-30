@@ -164,6 +164,17 @@ a.nav-link {
     border: 1px solid #ffffff; 
     border-radius: 35px; 
 }
+
+    @media screen and (max-width: 550px)
+    {
+        .myButton
+        {
+            width: 150px;
+            font-size: 0.8em;
+            bottom: 15%;
+        }
+            
+    }
 /********* Hero Banner Button *********/
 
 .buttonStudies
@@ -203,10 +214,16 @@ a.nav-link {
     height: 50px;
     width: 50px;
     border-radius: 25px;
-    background-image: url('../img/up-chev.png');
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-color: #424182;
 }
+
+    #chev-up
+    {
+        height: 50px;
+        border-radius: 10vw;
+        
+        fill: white;
+    }
 
 @media screen and (max-width: 475px)
 {

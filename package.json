@@ -1,21 +1,13 @@
 {
-  "name": "rampsite",
+  "name": "rampgroupmockwebsite",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/EPS21/ramp-website-PTG.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/EPS21/ramp-website-PTG/issues"
-  },
-  "homepage": "https://github.com/EPS21/ramp-website-PTG#readme",
   "dependencies": {
     "smoothscroll": "^0.4.0"
   }

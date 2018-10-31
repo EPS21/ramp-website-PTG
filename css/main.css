@@ -43,7 +43,7 @@ img
 
 body
 {
-    margin-top: 115px;
+    margin-top: 88px; /*old value 115px*/
 }
 
 .title{
@@ -78,7 +78,7 @@ a.nav-link:hover {
     border-bottom: 1px solid #dedede;
     opacity: 0.95;
     padding: 40px 50px;
-    height: 88px;
+    height: 88px;    
     transition: all 0.5s;
     background-color: #FFFFFF;
 }
@@ -93,6 +93,14 @@ a.nav-link:hover {
 a.nav-brand { 
     padding-top: 0;
     padding-bottom: 0;
+}
+
+@media screen and (max-width: 991px) 
+{
+    .navbar {
+        height: auto!important;
+        /* overflow: auto; */
+    }
 }
 
 /* Seperators */

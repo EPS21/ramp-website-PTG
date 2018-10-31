@@ -219,7 +219,7 @@ body
 .nav-before {    
     background-color: transparent;    
     height: 105px;
-    transition: all 0.5s;    
+    transition: all 0.5s;
 }
 
 .nav-before .navbar-brand {
@@ -231,6 +231,35 @@ body
 
 .nav-before .nav-link {
     color: #fff!important;
+}
+
+@media screen and (max-width: 991px) {
+    .navbar {
+        background-color: #fff;
+        /* overflow: auto; */
+    }
+
+    .nav-before .navbar-brand {
+        background-image: url('../img/logo_ramplogo_main@2x.png');
+        background-size: 173px 28px;
+        width: 173px;
+        height: 28px;
+    }
+
+    .nav-before a.nav-link {
+        color: #666666!important;
+        font-size: 1.111em ;
+        font-family: Oswald ;
+    }
+    
+    .nav-before a.active {
+        color: #414082!important;
+    }
+    
+    .nav-before a.nav-link:hover {
+        color: #414082!important;
+        transition: 0.5s;
+    }
 }
 
 

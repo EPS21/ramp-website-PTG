@@ -80,7 +80,7 @@
 						<source src="img/timelapse.mp4" type="video/mp4">
 				</video>
 
-				<div class="carousel-caption   heroBanner">
+				<div id="heroBanner" class="carousel-caption">
 
 					<h2 class="heroHeading">Digitally Transform your business.</h2>
 		
@@ -95,9 +95,9 @@
  
  
 		 <!-- Introductory Information Image Section-->
-	 <section class="introInfo row">	
-			 <article class="col-lg-3 col-md-3">
-					 <div class="col-lg-12 col-md-12 col-6 infoImg1" style="background-color:#EC5A3F;">
+	 <section id="intro0" class="introInfo row">	
+			 <article id="intro1" class="col-lg-3 col-md-3">
+					 <div  class="col-lg-12 col-md-12 col-6 infoImg1" style="background-color:#EC5A3F;">
 							 <img src="img/cap1_strategy@2x.png" alt="strategy">
 					 </div>
  
@@ -107,7 +107,7 @@
 					 </div>
 			 </article>
 			 
-			 <article class="col-lg-3 col-md-3">
+			 <article id="intro2" class="col-lg-3 col-md-3">
 				 <div class="col-lg-12 col-md-12 col-6 infoImg2" style="background-color: #F68C36;">
 						 <img src="img/cap2_design@2x.png" alt="strategy">
 				 </div>
@@ -119,7 +119,7 @@
 			 </article>
  
  
-			 <article class="col-lg-3 col-md-3">
+			 <article id="intro3" class="col-lg-3 col-md-3">
 				 <div class="col-lg-12 col-md-12 col-6 infoImg1" style="background-color: #D42F2E;">
 						 <img src="img/cap3_implementation@2x.png" alt="strategy">
 				 </div>
@@ -131,7 +131,7 @@
 			 </article>
  
  
-			 <article class="col-lg-3 col-md-3">
+			 <article id="intro4" class="col-lg-3 col-md-3">
 				 <div class="col-lg-12 col-md-12 col-6 infoImg2" style="background-color: #9F3A4A;">
 						 <img src="img/cap4_ops@2x.png" alt="strategy">
 				 </div>
@@ -141,12 +141,14 @@
 						 <p>Transform operations with advanced automation and data analysis, measurably aligning your systems and processes with your business goals.</p>
 				 </div>
 			 </article>
+
+			 <!-- Learn More Link (HREF NEEDED) -->
+		 <div class="learnMore mainMargin headerMargin row">
+				<a href="">Learn more about how we do what we do >></a>
+			</div>
 	 </section>
  
-		 <!-- Learn More Link (HREF NEEDED) -->
-		 <div class="learnMore mainMargin headerMargin row">
-			 <a href="">Learn more about how we do what we do >></a>
-		 </div>
+		 
 		 
 		 <!-- Section Seperator -->
 		 <span class="sectionSep row"></span>
@@ -281,8 +283,13 @@
 	 crossorigin="anonymous"></script>	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 	 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+
 	 <script src="js/scrollUpButton.js"></script>
 	 <script src="js/indexFunction.js"></script>
 	 <script src="js/main.js"></script>
+	 <script src="js/scrollMagicDemo.js"></script>
  </body>
  </html>

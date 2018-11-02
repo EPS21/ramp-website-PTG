@@ -4,23 +4,46 @@
     margin-bottom: 30px;
 }
 
-    .capImg1
-    {
-        float: left;
-        display: inline;
+.capImg1
+{
+    float: left;
+    display: inline;
+}
+.capInfo1
+{
+    float: left;
+    display: inline;
+}
+.capImg2
+{
+    float: right;
+    display: inline;
+}
+.capInfo2
+{
+    float: right;
+    display: inline;
+}
+
+#pic1 {
+    /* transform: scale(2.0); */
+    
+}
+
+.disappear {
+    animation: picDisappear 1s ease-out;
+    animation-fill-mode: forwards;
+    /* transform: scale(0.5); */
+}
+
+
+@keyframes picDisappear {
+    from {
+        transform: scale(1);
+        opacity: 1;
     }
-    .capInfo1
-    {
-        float: left;
-        display: inline;
+    to   {
+        transform: scale(0);
+        opacity: 0;
     }
-    .capImg2
-    {
-        float: right;
-        display: inline;
-    }
-    .capInfo2
-    {
-        float: right;
-        display: inline;
-    }
+}
